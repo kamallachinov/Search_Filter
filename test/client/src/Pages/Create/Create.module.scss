@@ -1,0 +1,46 @@
+*{
+margin: 0;
+padding: 0;
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+
+    .form{
+        padding: 2rem 3rem;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #FFB606;
+        justify-content: center;
+        text-align: center;
+        label{
+            font-family: 'Quicksand', sans-serif;
+            color: #FFB606;
+            text-align: center;
+            padding-bottom: 20px;
+            font-size: 1.4rem;
+            line-height: 1.1;
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+        input{
+            font-size: 14px;
+            width: 300px;
+            padding: 7px 10px;
+            border-radius: 0.3rem;
+            border: 0;
+            outline: 1px solid gray;
+        }
+        .btn{
+            margin-top: 1rem;
+            background-color: #FFB606;
+            color: white;
+            border: 0;
+            padding: 0.7rem 2rem;
+            border-radius: 0.3rem;
+            outline: none;
+        }
+    }
+}
